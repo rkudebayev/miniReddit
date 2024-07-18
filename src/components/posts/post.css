@@ -1,0 +1,43 @@
+.posts-container {
+    margin: 20px auto;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px  lightblue;
+    width: 800px;
+}
+
+.post {
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.description button {
+    font-size: larger;
+    background: none;
+    border: none;
+}
+
+.author {
+    color: blue;
+    font-size: larger;
+}
+
+.time {
+    color: grey;
+    font-style: italic;
+}
+
+.dislike {
+    transform: scale(-1, 1);
+}

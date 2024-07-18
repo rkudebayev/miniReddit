@@ -1,0 +1,38 @@
+.header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-name h5 {
+    margin: auto 0;
+    font-family: "Roboto";
+}
+
+.logo-name img {
+    margin: 0;
+    width: 50px;
+}
+
+.search-input button  {
+    width: 5%;
+}
+
+.search-input button {
+    width: 400px;
+}
